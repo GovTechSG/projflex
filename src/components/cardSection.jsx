@@ -96,7 +96,7 @@ class CardSection extends Component {
     // const prod = 'megaman-robot-masters.herokuapp.com';
     // const local = 'localhost:8080';
     // const url = 'http://localhost:8080/data-sample/cards.json';
-    const url = 'https://raw.githubusercontent.com/lauises/lauises.github.io/master/cards.json';
+    const url = 'cards.json';
 
     this.serverRequest = query.getData(url, (cardData) => {
       this.setState({ cards: cardData });
